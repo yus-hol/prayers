@@ -18,3 +18,13 @@ main {
     width: 40vw;
 }
 
+img {
+    display: block;
+}
+
+.mystery-card img {
+    width: 200px;
+    height: 200px;
+}
+
+
