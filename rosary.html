@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Rosary prayer web page" />
+        <link rel="stylesheet" href="./src/css/main.css" />
+        <link rel="icon" type="images/x-icon" href="src/images/icon.png" />
+        <title>Rosary</title>
+    </head>
+    <body>
+        <header>
+            <img src="./src/images/bg_flowers.jpg" alt="top flowers image" />
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="prayers.html">Prayers</a>
+                <a href="about.html">About St. Carlo Acutis</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Rosary with St. Carlo</h1>
+            <section id="music">
+                <div class="music-container">
+                    <audio controls loop>
+                        <source src="./src/music/rosary.wav" type="audio/wav" />
+                    </audio>
+                </div>
+            </section>
+            <section id="mysteries">
+                <div class="mysteries-container">
+                    <h2>Select a Mystery</h2>
+                    <div class="mystery-card">
+                        <img src="./src/images/joyful.jpg" alt="joyful-mysteries-image" />
+                        <button class="mystery-button" id="joyful-mystery-btn">Joyful Mysteries</button>
+                    </div>
+                    <div class="mystery-card">
+                        <img src="./src/images/luminous.jpg" alt="luminous-mysteries-image" />
+                        <button class="mystery-button" id="luminous-mystery-btn">Luminous Mysteries</button>
+                    </div>
+                    <div class="mystery-card">
+                        <img src="./src/images/sorrowful.jpg" alt="sorrowful-mysteries-image" />
+                        <button class="mystery-button" id="sorrowful-mystery-btn">Sorrowful Mysteries</button>
+                    </div>
+                    <div class="mystery-card">
+                        <img src="./src/images/glorious.jpg" alt="glorious-mysteries-image" />
+                        <button class="mystery-button" id="glorious-mystery-btn">Glorious Mysteries</button>
+                    </div>
+                </div>
+            </section>
+            <section id="prayers">
+                <div class="prayers-container">
+                    <h2>Opening prayers</h2>
+                    <p>In the Name of the Father, and of the Son, and of the Holy Spirit</p>
+                    <h3>Apostles Creed</h3>
+                    <p>I believe in God, the Father almighty, Creator of Heaven and earth,<br> 
+                        and in in Jesus Christ, His only Son, our Lord, Who was conceived by the Holy Spirit,<br> 
+                        born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died,<br>
+                        and was buried; He descended into Hell; on the third day He rose again from the dead;<br>
+                        He ascended into Heaven, sitteth at the right hand of God the Father Almighty;<br>
+                        from thence He will come to judge the living and the dead.<br>
+                        I believe in the Holy Spirit, the Holy Catholic Church,<br>
+                        the communion of saints, the forgiveness of sins, the resurrection of the body,<br>
+                        and life everlasting.<br>
+                        Amen.</p>
+                    <h3>Our Father</h3>
+                    <p>Our Father, Who art in Heaven, hallowed be Thy Name.<br>
+                        Thy Kingdom come, Thy will be done on earth, as it is in Heaven.<br>
+                        Give us this day our daily bread, and forgive us our trespasses<br>
+                        as we forgive those who trespass against us.<br>
+                        And lead us not into temptation, but deliver us from evil.<br>
+                        Amen.</p>
+                    <p>For an increase in faith, hope, and charity.</p>
+                    <h3>Hail Mary (3)</h3>
+                    <p>Hail Mary, full of Grace, the Lord is with thee;<br>
+                        blessed art thou amongst women, and blessed is the Fruit of thy womb, Jesus.<br>
+                        Holy Mary, mother of God, pray for us sinners, now and in the hour of our death.<br>
+                        Amen.</p>
+                    <3>Glory be</h3>
+                    <p>Glory be to the Father, and to the Son, and to the Holy Spirit.<br>
+                        As it was in the beginning, is now, and ever shall be, world without end.<br>
+                        Amen.</p>
+                </div>
+                <div class="prayers-container">
+                    <h2>Beads prayers</h2>
+                    <h3>Our Father</h3>
+                    <p>Our Father, Who art in Heaven, hallowed be Thy Name.<br>
+                        Thy Kingdom come, Thy will be done on earth, as it is in Heaven.<br>
+                        Give us this day our daily bread, and forgive us our trespasses<br>
+                        as we forgive those who trespass against us.<br>
+                        And lead us not into temptation, but deliver us from evil.<br>
+                        Amen.</p>
+                    <p>For an increase in faith, hope, and charity.</p>
+                    <h3>Hail Mary (10)</h3>
+                    <p>Hail Mary, full of Grace, the Lord is with thee;<br>
+                        blessed art thou amongst women, and blessed is the Fruit of thy womb, Jesus.<br>
+                        Holy Mary, mother of God, pray for us sinners, now and in the hour of our death.<br>
+                        Amen.</p>
+                    <h3>Glory be</h3>
+                    <p>Glory be to the Father, and to the Son, and to the Holy Spirit.<br>
+                        As it was in the beginning, is now, and ever shall be, world without end.<br>
+                        Amen.</p>
+                    <h3>Fatima prayer</h3>
+                    <p>O my Jesus, forgive us our sins and save us from the fires of Hell;</br>
+                        lead all souls to heaven, especially those in most need of Thy mercy.</p>
+                    <h3>The Unity prayer</h3>
+                    <p>My adored Jesus,<br>
+                        May our feet journey together<br>
+                        May our hands gather in unity<br>
+                        May our hearts beat in unison<br>
+                        May our souls be in harmony<br>
+                        May our thoughts be as one<br>
+                        May our ears listen to the silence together<br>
+                        May our glances profoundly penetrate each other<br>
+                        And may our lips pray together,<br>
+                        to gain mercy from the eternal Father.<br>
+                        Amen</p>
+                </div>
+                <div class="prayers-container">
+                    <h2>Closing prayers</h2>
+                    <h3>Heil Holy Queen</h3>
+                    <p>Hail holy Queen, mother of mercy, our life, our sweetness, and our hope;<br>
+                        to thee do we cry, poor banished children of Eve, to thee do we send up our sighs,<br>
+                        mourning and weeping in this valley of tears.<br>
+                        Turn then, most gracious advocate, thine eyes of mercy toward us,<br>
+                        and after this our exile show unto us the blessed Fruit of thy womb, Jesus.<br>
+                        O clement, O loving, O sweet Virgin Mary.<br>
+
+                        Pray for us Holy Mother of God.<br>
+                        That we may be made worthy of the promises of Christ.<br>
+                        
+                    <p>Let us pray.</p>
+                    <p>O God, Whose Only-Begotten Son, by His life, death and resurrection,<br>
+                        has purchased for us the rewards of eternal life:<br>
+                        grant, we beseech Thee, that by meditating upon these mysteries<br>
+                        of the most holy Rosary of the Blessed Virgin Mary,<br>
+                        we may imitate what they contain, and obtain what they promise,<br>
+                        through the same Christ our Lord.<br>
+                        Amen.</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
